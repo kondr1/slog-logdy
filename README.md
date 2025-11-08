@@ -1,4 +1,4 @@
-# logdy-slog
+# slog-logdy
 
 A [slog.Handler](https://pkg.go.dev/log/slog#Handler) implementation that sends logs to [Logdy](https://logdy.dev/) via REST API.
 
