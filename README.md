@@ -5,7 +5,7 @@ A [slog.Handler](https://pkg.go.dev/log/slog#Handler) implementation that sends 
 ## Installation
 
 ```bash
-go get github.com/kondr1/logdy-slog
+go get github.com/kondr1/slog-logdy
 ```
 
 ## Quick Start
@@ -17,11 +17,11 @@ import (
     "log/slog"
     "time"
 
-    logdyslog "github.com/kondr1/logdy-slog"
+    sloglogdy "github.com/kondr1/slog-logdy"
 )
 
 func main() {
-    handler, err := logdyslog.New(logdyslog.Options{
+    handler, err := sloglogdy.New(sloglogdy.Options{
         BaseURL:          "http://localhost:8080",
         APIToken:         "your-api-token",
         Source:           "my-application",
